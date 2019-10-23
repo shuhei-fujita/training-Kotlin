@@ -6,7 +6,7 @@
 fun main(args: Array<String>) {
     println("Hello, world!")
     
-    //定数の宣言
+    //定数の宣言,valは定数の宣言に使う
     val a: Int = 1
     
     println(a)
@@ -25,5 +25,8 @@ fun main(args: Array<String>) {
     val num: Int = 64
     val stringVal: String = str.toString()
     println(stringVal)
-    
+
+    //nullを代入できない型と，できる型
+    //null非許容型，null許容型
+    var text: String? = null
 }
