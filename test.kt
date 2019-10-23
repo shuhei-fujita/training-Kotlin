@@ -28,5 +28,9 @@ fun main(args: Array<String>) {
 
     //nullを代入できない型と，できる型
     //null非許容型，null許容型
+    //定数，変数宣言時に型が指定されたらnullを，通常では代入することはできない
+    //?をつけると許容型になる
     var text: String? = null
+
+    
 }
